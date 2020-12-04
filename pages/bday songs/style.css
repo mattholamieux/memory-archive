@@ -1,0 +1,35 @@
+
+/* Style the video: 100% width and height to cover the entire window */
+body {
+  background-color: black;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.container video {
+  width: 50%;
+  height: 300px;
+  display: block;
+}
+
+.container img {
+  width: 49.8%;
+  height: auto;
+  margin-top: 4px;
+}
+
+
+/* Add some content at the bottom of the video/page */
+.content {
+
+    background: rgba(0, 0, 0, 0.25);
+    color: #f1f1f1;
+    width: 100%;
+    padding-left: 10px;
+}
+
+/* Style the button used to pause/play the video */

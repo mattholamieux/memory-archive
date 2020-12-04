@@ -1,0 +1,136 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #F4F4F4;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 20px; */
+}
+
+header {
+    /* position: fixed; */
+    border-top: solid 5px #186774;
+    background-color: rgba(105, 106, 110, 0.3);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+}
+
+header h1 {
+    display: block;
+    font-size: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    color: #F4F4F4;
+}
+
+.hero {
+    padding-top: 10vh;
+    padding-bottom: 70vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    background-image: url('assets/chile/Float.jpeg');
+}
+
+.hero h2 {
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #FFF;
+}
+
+.pictures {
+    margin-bottom: 50px;
+}
+
+.pictures .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    display: block;
+    width: 33.33%;
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.photo img {
+    border: solid 2px #C2CADC;
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+}
+
+#still img {
+    object-position: 0 0;
+}
+
+.overlay {
+    opacity: 0;
+    background-color: rgba(254, 234, 52, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h4,
+.overlay p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 700;
+}
+
+.overlay p {
+    font-size: 16px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #000;
+}
+
+.overlay h4 {
+    color: #000;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.filters ul {
+    padding-left: 0;
+}
+
+.filters li {
+    display: inline;
+    padding-right: 15px;
+}
+
+.filters a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.selected {
+    border-bottom: solid 3px #186774;
+}
