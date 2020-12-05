@@ -1,29 +1,30 @@
-
 /* Style the video: 100% width and height to cover the entire window */
+
 body {
-  background-color: black;
+    background-color: black;
 }
 
 .container {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .container video {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 .container img {
-  width: 49.8%;
-  height: auto;
-  margin-top: 4px;
+    width: 49%;
+    height: auto;
+    margin-top: 4px;
 }
 
 
 /* Add some content at the bottom of the video/page */
+
 .content {
     position: fixed;
     bottom: 0;
@@ -32,5 +33,6 @@ body {
     width: 100%;
     padding-left: 10px;
 }
+
 
 /* Style the button used to pause/play the video */
